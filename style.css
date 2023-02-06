@@ -1,0 +1,44 @@
+.one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one-body {
+    display: flex;
+}
+
+.h-name {
+    font-size: 24px;
+    color: #F9FAF8
+}
+.one-descr-top {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.one-descr-mid {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/*end section one*/
+
+
