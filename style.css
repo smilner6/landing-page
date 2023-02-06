@@ -23,6 +23,11 @@ a {
 
 .one-body {
     display: flex;
+    height: 200px;
+}
+
+.one-description {
+    max-width: 400px;
 }
 
 .h-name {
