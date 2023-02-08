@@ -1,7 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .one {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -24,6 +31,8 @@ a {
 .one-body {
     display: flex;
     height: 200px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .one-description {
@@ -46,4 +55,59 @@ a {
 }
 /*end section one*/
 
+.two {
+text-align: center;
+}
 
+.two-title {
+    margin: 10px 0;
+}
+
+.two-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.duckling {
+    height: 200px;
+}
+
+/*end section two*/
+
+.three {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.quote {
+
+}
+
+.author {
+    
+}
+
+    /* end of section three */
+
+.four {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: red;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    background: yellow;
+}
