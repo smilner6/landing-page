@@ -51,7 +51,7 @@ a {
     color: #F9FAF8
 }
 .one-descr-top {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: bolder;
     color: #F9FAF8;
 }
@@ -89,7 +89,7 @@ a {
 }
 
 .duckling {
-    height: 150px;
+    height: 125px;
     border-radius: 10px;
     border: 2px solid #3883F6;
 }
@@ -97,6 +97,7 @@ a {
 .text {
     flex-wrap: wrap;
     max-width: 150px;
+    margin-bottom: 10px;
 }
 
 /*end section two*/
@@ -107,6 +108,8 @@ a {
     justify-content: center;
     align-items: center;
     height: 200px;
+    background-color: #E5E7EB;
+    padding: 20px;
 }
 
 .three-content {
@@ -116,6 +119,8 @@ a {
 }
 
 .quote {
+    font-size: 24px;
+    font-style: italic;
 
 }
 
@@ -128,10 +133,29 @@ a {
 
 .four {
     display: flex;
-    flex-direction: column;
     flex: 1;
-    background: red;
+    justify-content: center;
+    align-items: center;
+    background-color: #3883F6;
 }
+
+.four-text {
+
+}
+
+.four-top {
+
+}
+
+.four-bottom {
+
+}
+
+.four-button {
+
+}
+
+/* end of section four */
 
 .footer {
     display: flex;
