@@ -11,9 +11,15 @@ body {
     flex: 1;
 }
 
+.one-content {
+    justify-content: center;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 
 ul {
@@ -53,14 +59,25 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.one-button {
+    background-color: #3883F6;
+    color: white;
+    text-align: center;
+    width: 90px;
+    padding: 5px;
+}
 /*end section one*/
 
 .two {
-text-align: center;
+    text-align: center;
+    height: 300px;
 }
 
 .two-title {
     margin: 10px 0;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .two-content {
@@ -70,17 +87,22 @@ text-align: center;
 }
 
 .duckling {
-    height: 200px;
+    height: 150px;
+}
+
+.text {
+    flex-wrap: wrap;
+    max-width: 150px;
 }
 
 /*end section two*/
 
 .three {
     display: flex;
-    flex-direction: column;
-    flex: 1;
+    flex: 1 0 1;
     justify-content: center;
     align-items: center;
+    height: 200px;
 }
 
 .three-content {
@@ -94,7 +116,8 @@ text-align: center;
 }
 
 .author {
-    
+    align-self: flex-end;
+    margin-right: 40px;
 }
 
     /* end of section three */
