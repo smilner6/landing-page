@@ -133,18 +133,27 @@ a {
 
 .four {
     display: flex;
-    flex: 1;
+    flex: 1 0 1;
     justify-content: center;
     align-items: center;
-    background-color: #3883F6;
+    height: 200px;
 }
 
-.four-text {
-
+.four-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3883F6;
+    padding: 30px 40px;
+    width: 700px;
+    margin: 40px;
+    border-radius: 5px;
+    color: white;
 }
 
 .four-top {
-
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .four-bottom {
@@ -152,7 +161,9 @@ a {
 }
 
 .four-button {
-
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 4px 10px;
 }
 
 /* end of section four */
@@ -160,5 +171,10 @@ a {
 .footer {
     display: flex;
     flex: 1;
-    background: yellow;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
 }
